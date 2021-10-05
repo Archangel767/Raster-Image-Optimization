@@ -1,0 +1,19 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  text-align: center;
+}
+
+.container {
+  width: 90vw;
+  max-width: 1920px;
+  margin: auto;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height:inherit;
+  margin: 3rem auto;
+}

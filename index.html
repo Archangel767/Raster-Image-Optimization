@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <header>
+    <h1>CPNT 201 Assignment 2 - Raster Image Optimization</h1>
+  </header>
+
+<!-- Images default to md size, width=1024px -->
+
+  <main>
+    <div class="container">
+      <img src="assets/images/md/aurora-1024.jpg" alt="aurora" width="1024" height="692"
+        srcset="assets/images/sm/aurora-500.jpg 500w,
+          assets/images/md/aurora-1024.jpg 1024w, assets/images/lg/aurora-1920.jpg 1920w" 
+        sizes="(min-width: 500px) 90vw" 
+        loading="lazy">
+
+      <img src="assets/images/md/coffee-1024.jpg" alt="coffee" width="1024" height="684" 
+        srcset="assets/images/sm/coffee-500.jpg 500w,
+          assets/images/md/coffee-1024.jpg 1024w, assets/images/lg/coffee-1920.jpg 1920w" 
+        sizes="(min-width: 500px) 90vw" 
+        loading="lazy">
+
+      <img src="assets/images/md/greysky-1024.jpg" alt="greysky" width="1024" height="705" 
+        srcset="assets/images/sm/greysky-500.jpg 500w,
+    assets/images/md/greysky-1024.jpg 1024w, assets/images/lg/greysky-1920.jpg 1920w" 
+        sizes="(min-width: 500px) 90vw" 
+        loading="lazy">
+    </div>
+  </main>
+
+</body>
+
+</html>
